@@ -1,4 +1,7 @@
 :root {
 	--black: #070707;
   --bg-main: #fff;
+  --bg-gray: #f6f6f6;
+  --color-gray: #554b4b;
+  --transition-duration: .3s;
 }
