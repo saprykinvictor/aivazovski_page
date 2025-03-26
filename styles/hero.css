@@ -1,0 +1,36 @@
+.hero {
+  padding-block: 46px 70px;
+  text-align: center;
+}
+.hero__title {
+  margin-bottom: 22px;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.hero__descr {
+  margin-bottom: 35px;
+}
+
+.hero__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding-block: 66px 78px;
+    text-align: left;
+  }
+
+  .hero__title {
+    margin-bottom: 24px;
+    font-size: 32px;
+    max-width: 250px;
+  }
+
+  .hero__descr {
+    margin-bottom: 28px;
+    font-size: 14px;
+  }
+}
