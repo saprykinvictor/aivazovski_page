@@ -34,3 +34,9 @@ p {
   padding: 0 15px;
   max-width: 960px;
 }
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  
+}

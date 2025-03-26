@@ -1,0 +1,27 @@
+.history {
+  padding-block: 64px 70px;
+  text-align: center;
+}
+.history__title {
+  margin-bottom: 70px;
+}
+
+.history__image {
+  margin-bottom: 30px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 480px) {
+  .history {
+  padding-block: 50px 70px;
+}
+
+  .history__image {
+    height: 480px;
+  }
+
+  .history__descr {
+    font-size: 14px;
+  }
+}
