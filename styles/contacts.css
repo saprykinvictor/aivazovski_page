@@ -26,6 +26,9 @@
   align-items: center;
   width: 210px;
   height: 42px;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--bg-main);
   background-color: var(--black);
   border: none;
   border-radius: 21px;
@@ -33,12 +36,6 @@
 
 .contacts__button:hover {
   opacity: 0.7;
-}
-
-.button-link {
-  font-size: 24px;
-  font-weight: 500;
-  color: var(--bg-main);
 }
 
 .soc1als {

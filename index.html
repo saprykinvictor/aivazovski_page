@@ -36,6 +36,42 @@
   </div>
 </header>
 
+<div class="mobile-navigation" aria-label="mobile-navigation">
+  <label for="toggler-id" aria-label="open-close mobile-navigation menu">
+    <svg class="mobile-navigation-burger" aria-label="burger icon">
+      <use href="assets/sprites.svg#burger-icon"></use>
+    </svg>
+  </label>
+
+  <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+
+  <nav class="mobile-navigation__menu" aria-label="mob navigation">
+    <ul class="mobile-navigation__list" aria-label="mob navigation list">
+      <li class="nav__item">
+        <a href="#hero" class="mobile-navigation__link" aria-label="link to home">Home</a>
+      </li>
+      <li class="nav__item">
+        <a href="#about" class="mobile-navigation__link" aria-label="link to about">About</a>
+      </li>
+      <li class="nav__item">
+        <a href="#history" class="mobile-navigation__link" aria-label="link to history">History</a>
+      </li>
+      <li class="nav__item">
+        <a href="#portfolio" class="mobile-navigation__link" aria-label="link to portfolio">Portfolio</a>
+      </li>
+      <li class="nav__item">
+        <a href="#contacts" class="mobile-navigation__link" aria-label="link to contacts">Contacts</a>
+      </li>
+    </ul>
+
+    <label for="toggler-id" class="mobile-navigation__close" aria-label="open-close mobile-navigation menu">
+      <svg class="mobile-navigation-cross" aria-label="cross icon">
+        <use href="assets/sprites.svg#cross-icon"></use>
+      </svg>
+    </label>
+  </nav>
+</div>
+
 <main aria-label="main">
   <section class="hero" id="hero" aria-label="hero-section">
     <div class="container">
@@ -43,7 +79,7 @@
       <p class="hero__descr" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
       <img
       class="hero__image" 
-      src="./assets/webp/hero (1).webp" 
+      src="./assets/webp/hero.webp" 
       alt="photo of Ayvazovskiy" 
       width="950" 
       height="535" 
@@ -75,8 +111,6 @@
           the greatest marine painters of all time.
         </p>
       </div>
-
-
     </div>
   </section>
 
@@ -141,9 +175,9 @@
   <div class="container">
     <div class="contacts__inner">
       <h2 class="contacts__title title">Contacts</h2>
-      <button class="contacts__button">
-        <a href="https://ayvazovskiy.su" class="button-link" target="_blank">ayvazovskiy.su</a>
-      </button>
+      
+        <a href="https://ayvazovskiy.su" class="contacts__button" target="_blank">ayvazovskiy.su</a>
+     
       
       <address class="soc1als" aria-label="soc1al icons">
         <a href="https://youtube.com" target="_blank" aria-label="link to youtube">
