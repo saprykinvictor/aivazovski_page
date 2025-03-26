@@ -1,0 +1,39 @@
+.portfolio {
+  padding-block: 80px 108px;
+  text-align: center;
+  background-color: var(--bg-gray);
+}
+.portfolio__title {
+  margin-bottom: 76px;
+}
+
+.portfolio__image {
+  margin-bottom: 40px;
+  width: min(100%, 950px);
+  height: min(100%, 630px);
+  object-fit: contain;
+}
+
+.portfolio__descr {
+  margin-bottom: 95px;
+}
+
+@media (max-width: 480px) {
+  .portfolio {
+    padding-block: 40px 50px;
+  }
+
+  .portfolio__title {
+    margin-bottom: 50px;
+  }
+
+  .portfolio__image {
+    padding-block: 15px;
+  margin-bottom: 30px;
+}
+
+.portfolio__descr {
+  margin-bottom: 50px;
+  font-size: 14px;
+}
+}
